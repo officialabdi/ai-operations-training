@@ -1,0 +1,10 @@
+2026-02-25 21:06:54,689 | INFO | Pipeline started
+2026-02-25 21:06:54,690 | INFO | Config: {'input_file': 'customers.csv', 'output_file': 'results.csv', 'max_tries': 3, 'concurrency': 10, 'api_delay': 0.1, 'failure_rate': 0.1}
+2026-02-25 21:08:51,176 | INFO | Pipeline started
+2026-02-25 21:08:51,177 | INFO | Config: {'input_file': 'customers.csv', 'output_file': 'results.csv', 'max_tries': 3, 'concurrency': 10, 'api_delay': 0.1, 'failure_rate': 0.1}
+2026-02-25 21:09:47,663 | INFO | Pipeline started
+2026-02-25 21:09:47,664 | INFO | Config: {'input_file': 'customers.csv', 'output_file': 'results.csv', 'max_retries': 3, 'concurrency': 10, 'api_delay': 0.1, 'failure_rate': 0.1}
+2026-02-25 21:10:03,044 | INFO | Pipeline started
+2026-02-25 21:10:03,045 | INFO | Config: {'input_file': 'customers.csv', 'output_file': 'results.csv', 'max_retries': 3, 'concurrency': 10, 'api_delay': 0.1, 'failure_rate': 0.1}
+2026-02-25 21:15:11,006 | INFO | Pipeline started
+2026-02-25 21:15:11,007 | INFO | Config: {'input_file': 'customers.csv', 'output_file': 'results.csv', 'max_retries': 3, 'concurrency': 10, 'api_delay': 0.1, 'failure_rate': 0.1}

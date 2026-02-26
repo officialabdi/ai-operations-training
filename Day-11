@@ -1,0 +1,43 @@
+def build_smart_email(recipient_role, topic):
+    if recipient_role == "CEO":
+        tone = "formal and data-driven"
+    elif recipient_role == "colleague":
+        tone = "friendly and collaborative"
+    elif recipient_role == "customer":
+        tone = "professional and helpful"
+    elif recipient_role == "manager":
+        tone = "respectful and concise"
+    else:
+        tone = "professional"
+    prompt = f"write a {tone} email to a {recipient_role} about {topic}"
+    return prompt
+result1 = build_smart_email ("CEO" , "q4 revenue analysis")
+print(result1)
+result2 = build_smart_email("colleague" , "lunch plans")
+print(result2)
+result3 = build_smart_email("customer" , "order update")
+print(result3)
+result4 = build_smart_email("friend" , "weekend plans")
+print(result4)
+result5 = build_smart_email ("manager", "budget update")
+print(result5)    
+
+def build_product_description (product_type, product_name):
+    if product_type == "tech":
+       style = "innovative and cutting edge"
+    elif product_type == "food":
+        style = "delicious and mouth watering"
+    elif product_type == "clothing":
+        style = "stylish and comfortable"
+    else:
+        style = "high quality"
+    prompt = f"write a {style} description about {product_name}"     
+    return prompt
+result1 = build_product_description ("tech", "wireless headphones")
+print(result1)
+result2 = build_product_description ("food", "chocolate cakes")
+print(result2)
+result3 = build_product_description ("clothing", "winter jackets")
+print(result3)
+result4 = build_product_description ("toy", "building blocks")
+print(result4)
