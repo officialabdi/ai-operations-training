@@ -1,0 +1,6 @@
+2026-02-19 21:03:58,920 - INFO - reservation successful: john smith, john@email.com, 5551234567, 2026-03-15, party of 4
+2026-02-19 21:03:58,921 - ERROR - reservation failed for j: name must be at least 2 characters. got: 'j'
+2026-02-19 21:03:58,921 - ERROR - reservation failed for john smith: email must contain @. got: 'johnemail.com'
+2026-02-19 21:03:58,922 - ERROR - reservation failed for john smith: phone must be 10 digits. got: '555-123'
+2026-02-19 21:03:58,922 - ERROR - reservation failed for john smith: date must be in format YYYY-MM-DD. got: '15-03-2026'
+2026-02-19 21:03:58,922 - ERROR - reservation failed for john smith: party size cannot exceed 20. got: '25'

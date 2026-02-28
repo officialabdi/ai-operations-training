@@ -1,0 +1,11 @@
+customer_id,name,email,visit_count,last_visit,customer_type,loyalty_tier
+1,Marco Rossi,marco@email.com,12,2026-02-10,VIP,Gold
+2,Sarah Murphy,sarah@email.com,1,2026-02-15,new,Bronze
+3,John Byrne,john@email.com,5,2026-01-20,regular,Silver
+4,Aoife Kelly,aoife@email.com,3,2026-02-18,regular,Bronze
+5,Declan Walsh,declan@email.com,0,2026-01-05,no_show,None
+6,Fatima Al-Hassan,fatima@email.com,8,2026-02-20,VIP,Silver
+7,Cian O'Brien,cian@email.com,1,2026-02-22,new,Bronze
+8,Emma Doyle,emma@email.com,0,2025-12-15,no_show,None
+9,Liam Connolly,liam@email.com,6,2026-02-01,regular,Silver
+10,Niamh Power,niamh@email.com,15,2026-02-19,VIP,Gold

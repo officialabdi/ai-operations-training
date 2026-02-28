@@ -1,0 +1,203 @@
+📅 VIDEO SCHEDULE BY WEEK:
+WEEK 3 (After Day 21 - Error Handling Complete)
+Video 1: "Python Tutorial: Using Try/Except Blocks for Error Handling"
+
+Creator: Corey Schafer
+Link: https://www.youtube.com/watch?v=NIWwJbo-9_8
+Length: 16 minutes
+Watch when: After you finish Day 21 (end of Week 3)
+Why: See error handling in real coding workflow
+Focus on: How he debugs errors, his thought process
+
+
+WEEK 4 (After Day 28 - File Processing Complete)
+Video 2: "Python Tutorial: File Objects - Reading and Writing to Files"
+
+Creator: Corey Schafer
+Link: https://www.youtube.com/watch?v=Uh2ebFW8OYM
+Length: 18 minutes
+Watch when: After you finish Day 28
+Why: See file operations in action
+Focus on: His workflow, how he tests file operations
+
+
+WEEK 8 (After First API Integration)
+Video 3: "Python Requests Tutorial: Request Web Pages, Download Images, POST Data"
+
+Creator: Corey Schafer
+Link: https://www.youtube.com/watch?v=tb8gHvYlCFs
+Length: 31 minutes
+Watch when: After you build your first API connection with me
+Why: See API calls in real context
+Focus on: How he handles API responses, error checking
+
+
+WEEK 12 (After RAG System Build)
+Video 4: "Vector Databases Simply Explained"
+
+Creator: AI Explained
+Link: https://www.youtube.com/watch?v=dN0lsF2cvm4
+Length: 12 minutes
+Watch when: After Week 12 (RAG introduction)
+Why: Visual explanation of how vector databases work
+Focus on: The concept visualization, not the code
+
+
+WEEK 16 (After Multi-Agent Systems)
+Video 5: "LangChain Explained in 13 Minutes | QuickStart Tutorial"
+
+Creator: Rabbitmetrics
+Link: https://www.youtube.com/watch?v=aywZrzNaKjs
+Length: 13 minutes
+Watch when: After you've built basic agents with me
+Why: See how professionals structure agent workflows
+Focus on: Architecture patterns, not specific syntax
+
+
+"Python Tutorial for Beginners (Full Course)" - Programming with Mosh
+
+Link: https://www.youtube.com/watch?v=_uQrJ0TkZlc
+Length: 6 hours (watch in chunks!)
+When: Anytime during Month 1-2
+Why: Comprehensive overview, great for "big picture" understanding
+How to use: Watch 30 min at a time, skip topics you've already learned with me
+Best parts: Variables (0:18), Functions (2:17), Exceptions (4:18)
+"Python Functions Tutorial" - Corey Schafer
+
+Link: https://www.youtube.com/watch?v=9Os0o3wzS_I
+Length: 18 minutes
+When: After Week 2 (you know functions now)
+Why: See advanced function concepts (args, kwargs)
+Focus on: How he explains function parameters
+"Python Lists, Tuples, and Sets" - Corey Schafer
+
+Link: https://www.youtube.com/watch?v=W8KRzm-HUcc
+Length: 16 minutes
+When: After Week 4 (when working with data)
+Why: Deep dive into data structures
+Focus on: List methods, when to use which structure
+"Python Dictionaries" - Corey Schafer
+
+Link: https://www.youtube.com/watch?v=daefaLgNkw0
+Length: 12 minutes
+When: After Week 2 (you're using dicts now)
+Why: Advanced dictionary techniques
+Focus on: Dictionary comprehensions, methods
+📚 CATEGORY 2: WORKFLOW & PRODUCTIVITY"Visual Studio Code for Python Development" - Real Python
+
+Link: https://www.youtube.com/watch?v=-nh9rCzPJ20
+Length: 13 minutes
+When: Week 1-2 (anytime)
+Why: Learn VS Code shortcuts, debugging tools
+Focus on: Keyboard shortcuts, debugger setup
+Value: Code 30% faster with shortcuts
+"Git and GitHub for Beginners" - Traversy Media
+
+Link: https://www.youtube.com/watch?v=RGOj5yH7evk
+Length: 33 minutes
+When: Week 4 (when creating GitHub account)
+Why: Learn version control basics
+Focus on: Clone, commit, push (basic workflow)
+Skip: Advanced branching (you don't need yet)
+"How I Learned to Code in 6 Months" - Andy Sterkowitz
+
+Link: https://www.youtube.com/watch?v=xV5S_kZzPTg
+Length: 8 minutes
+When: When motivation is low
+Why: Inspiration, realistic expectations
+Focus on: His learning strategy, consistency
+📚 CATEGORY 3: API & WEB CONCEPTS (Month 2 Preparation)"APIs Explained in 4 Minutes" - Byte Byte Go
+
+Link: https://www.youtube.com/watch?v=s7wmiS2mSXY
+Length: 4 minutes
+When: Week 6-7 (before API integration)
+Why: Understand what APIs actually are
+Focus on: REST concepts, HTTP methods
+Perfect: Quick, visual explanation
+"What is JSON?" - Fireship
+
+Link: https://www.youtube.com/watch?v=iiADhChRriM
+Length: 2 minutes
+When: Week 7 (before API work)
+Why: JSON is how APIs communicate
+Focus on: JSON structure, syntax
+Perfect: Super quick, clear visual
+"HTTP Crash Course" - Traversy Media
+
+Link: https://www.youtube.com/watch?v=iYM2zFP3Zn0
+Length: 38 minutes
+When: Week 7 (before API integration)
+Why: Understand how web communication works
+Focus on: GET/POST/PUT/DELETE, status codes
+Skip: Deep protocol details (too technical)
+📚 CATEGORY 4: AI & AUTOMATION CONCEPTS"ChatGPT Prompt Engineering Course" - freeCodeCamp
+
+Link: https://www.youtube.com/watch?v=mBYu5NoXBcs
+Length: 1 hour
+When: Week 5-6 (no-code automation time)
+Why: Better prompt writing = better AI outputs
+Focus on: Few-shot prompting, system prompts
+Value: Your prompts will be 50% more effective
+"What is Retrieval Augmented Generation (RAG)?" - IBM Technology
+
+Link: https://www.youtube.com/watch?v=T-D1OfcDW1M
+Length: 8 minutes
+When: Week 11 (before RAG section)
+Why: Visual explanation of RAG concepts
+Focus on: How vector search works, why RAG matters
+Perfect: Non-technical explanation
+"Vector Databases Explained" - Fireship
+
+Link: https://www.youtube.com/watch?v=klTvEwg3oJ4
+Length: 5 minutes
+When: Week 11-12 (RAG introduction)
+Why: Quick, visual explanation of embeddings
+Focus on: How text becomes vectors
+Perfect: 100 seconds style, super clear
+"Building AI Agents with LangChain" - Dave Ebbelaar
+
+Link: https://www.youtube.com/watch?v=jSP-gSEyVeI
+Length: 28 minutes
+When: Week 15-16 (multi-agent systems)
+Why: See agents in action
+Focus on: Agent architecture, tool use
+Note: Advanced, but good preparation
+📚 CATEGORY 5: CAREER & BUSINESS"How to Build a Portfolio as a Developer" - Clever Programmer
+
+Link: https://www.youtube.com/watch?v=oC483DTjRXU
+Length: 10 minutes
+When: Week 4 (when starting GitHub)
+Why: Learn what employers want to see
+Focus on: Project presentation, README writing
+"Freelancing Tips for Developers" - Traversy Media
+
+Link: https://www.youtube.com/watch?v=fsTzLgra5dQ
+Length: 13 minutes
+When: Month 4-5 (when considering clients)
+Why: How to price services, find clients
+Focus on: Pricing strategy, client communication
+"Day in the Life of a Freelance Developer" - Coding Garden
+
+Link: https://www.youtube.com/watch?v=mQ7vprWqEco
+Length: 12 minutes
+When: Month 5-6 (career thinking time)
+Why: See realistic workflow
+Focus on: Time management, client work
+📚 CATEGORY 6: SHORT "FIRESHIP" STYLE (100 Seconds Series)Perfect for quick concepts!"Python in 100 Seconds"
+
+Link: https://www.youtube.com/watch?v=x7X9w_GIm1s
+Length: 2 minutes
+When: Anytime
+Why: Quick overview of Python's power
+"Docker in 100 Seconds"
+
+Link: https://www.youtube.com/watch?v=Gjnup-PuquQ
+Length: 2 minutes
+When: Week 18-20 (deployment)
+Why: Understand containers (used in cloud)
+"AWS in 100 Seconds"
+
+Link: https://www.youtube.com/watch?v=JIbIYCM48to
+Length: 2 minutes
+When: Week 17 (cloud deployment prep)
+Why: Overview of AWS services
