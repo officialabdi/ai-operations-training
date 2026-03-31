@@ -39,7 +39,7 @@ step2_response = client.messages.create(
 step2_output = step2_response.content[0].text.strip()
 print(f"step 2 - reply: {step2_output}")
 
-# --- STEP 3: Condense the reply to one SMS sentence ---
+
 step3_response = client.messages.create(
     model="claude-opus-4-5",
     max_tokens=100,
