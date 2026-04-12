@@ -53,3 +53,49 @@ step3_response = client.messages.create(
 
 step3_output = step3_response.content[0].text.strip()
 print(f"Step 3 - SMS: {step3_output}")
+
+"""
+What prompt chaining is
+Prompt chaining is the technique of making multiple API calls in sequence, where the output of one call is passed as input to the next. Each call is isolated and focused on one job.
+Why it exists
+A single prompt attempting multiple tasks loses focus, and errors in one part contaminate everything else. There are no checkpoints to inspect or fix output mid-way. Chaining solves this by isolating each stage, allowing you to catch and handle errors between steps before they spread.
+How it works
+The Claude API has no memory between calls. Every call is completely fresh. You are responsible for carrying output forward manually. The pattern is:
+
+Make API call → extract .content[0].text → store in a variable
+Inject that variable into the next call's prompt
+Repeat for as many steps as needed
+
+There is no special chaining function. It is plain Python logic connecting standard API calls.
+The .env file naming issue (session note)
+If your env file is not named .env but something else (e.g. env), you must pass the filename explicitly to load_dotenv:
+pythonload_dotenv("env", override=True)
+```
+
+The default behaviour of `load_dotenv()` looks for `.env` only.
+
+**Strict prompt instructions**
+
+When you need Claude to return a specific word or format, vague instructions fail. Be explicit:
+```
+Reply with one word only. No other text. Choose from exactly these three options: angry, neutral, or happy.
+When to use chaining vs a single prompt
+Use a single prompt when the task is simple, self-contained, and speed matters more than precision.
+Use chaining when:
+
+The task has distinct stages that depend on each other
+You need to inspect output between steps
+Errors in one step would ruin everything after it
+Each step needs its own focused instruction
+The output format changes between steps
+
+Business application
+A 3-step complaint handler for Luigi's Pizzeria:
+
+Step 1 — classify sentiment from customer complaint
+Step 2 — draft a professional reply based on sentiment
+Step 3 — condense reply to one SMS sentence
+
+This is a sellable automation for any Irish SME handling customer complaints.
+
+"""

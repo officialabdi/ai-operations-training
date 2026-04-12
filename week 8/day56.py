@@ -43,3 +43,39 @@ print("--- END ---")
 
 total_cost = calculate_cost(response.usage.input_tokens, response.usage.output_tokens)
 print(f"Total cost of this email response: ${total_cost:.6f}")
+
+
+"""
+What an AI Email Responder is
+A Python script that takes an incoming email as a text string, sends it to the Claude API with a system prompt, and returns a professionally written draft reply.
+The three ingredients
+
+System prompt — instructions that give Claude its identity, tone, and rules
+Incoming email — the raw email text stored as a string variable
+API call — sends both to Claude and returns the reply
+
+System prompt
+Stored as a string variable. Passed into client.messages.create() using the system= parameter. Tells Claude what business it represents, what tone to use, what to always do, and what to never do.
+Incoming email
+Stored as a plain string variable called incoming_email. Passed into the messages= list as a dict with "role": "user" and "content": incoming_email.
+The API call structure
+client = anthropic.Anthropic()
+response = client.messages.create(
+    model="claude-haiku-4-5-20251001",
+    max_tokens=1024,
+    system=system_prompt,
+    messages=[
+        {"role": "user", "content": incoming_email}
+    ]
+)
+Extracting the reply
+draft_reply = response.content[0].text
+Formatting output
+Wrap print statements with labelled separators so output looks like a product, not a debug log.
+Cost tracking
+response.usage.input_tokens and response.usage.output_tokens are available on every response. Use Haiku pricing: $0.80 per million input tokens, $4.00 per million output tokens.
+max_tokens
+Controls the maximum length of the reply. Too low and the reply gets cut off mid-sentence. Use 1024 for email replies.
+Model used
+claude-haiku-4-5-20251001 — fast and cheap, appropriate for high-volume email tasks.
+"""
