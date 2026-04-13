@@ -39,7 +39,7 @@ while True:
     total_input += input_tokens
     total_output += output_tokens
 
-    print(f"Luigi's AI: {reply}\n")
+    
     print(f"[Turn cost — Input: {input_tokens} | Output: {output_tokens}]")
     print(f"[Running total — Input: {total_input} | Output: {total_output}]\n")
 
